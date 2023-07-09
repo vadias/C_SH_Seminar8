@@ -14,7 +14,7 @@ int[,] FillMatrixSpiral(int start)
      int k = 0;
      int p = n/2;
 
-    for(k=1;k<=p;k++)/*Цикл по номеру витка*/
+    for(k=1; k<=p; k++)/*Цикл по номеру витка*/
     {
         for (j=k-1;j<n-k+1;j++) {
                 matrix[k-1,j]=start++; 
